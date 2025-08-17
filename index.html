@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nextGrain - Grow your potential</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .nextgrain-black { color: #201D2F; }
+        .nextgrain-blue { background-color: #90B9DF; }
+        .shadow-custom { box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25); }
+    </style>
+</head>
+<body class="bg-white">
+    <div class="relative w-full h-screen max-w-md mx-auto bg-white">
+        <!-- Status Bar -->
+        <div class="absolute h-11 left-0 overflow-clip top-0 w-full">
+            <div class="absolute flex flex-row gap-72 items-start justify-start p-0 top-4 left-1/2 transform -translate-x-1/2">
+                <div class="h-3 w-7 bg-gray-300 rounded"></div>
+                <div class="h-3 w-16 bg-gray-300 rounded"></div>
+            </div>
+        </div>
+
+        <!-- Home Indicator -->
+        <div class="absolute bottom-0 h-8 w-full">
+            <div class="absolute bg-black bottom-2 h-1.5 rounded-full left-1/2 transform -translate-x-1/2 w-40"></div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="absolute top-72 left-1/4 transform -translate-x-1/2">
+            <!-- Logo Placeholder -->
+            <div class="absolute h-36 w-36 top-0 left-0 bg-gradient-to-br from-blue-200 to-blue-300 rounded-lg flex items-center justify-center">
+                <div class="text-blue-600 text-2xl font-bold">nG</div>
+            </div>
+            
+            <!-- Welcome Text -->
+            <div class="absolute font-bold leading-normal text-black text-3xl text-center top-36 left-20 transform -translate-x-1/2">
+                <p class="block mb-0">Welcome </p>
+                <p class="block">to nextGrain</p>
+            </div>
+        </div>
+
+        <!-- Description Text -->
+        <div class="absolute font-normal h-14 leading-none left-1/2 transform -translate-x-1/2 text-nextgrain-black text-xl text-center top-72 w-80">
+            <p class="block leading-normal">
+                Grow your potential. <br />
+                nextGrain is your starting point.
+            </p>
+        </div>
+
+        <!-- Register Button -->
+        <div class="absolute h-14 left-6 top-96 w-96">
+            <div class="relative w-full h-full">
+                <div class="absolute inset-0 nextgrain-blue flex flex-row gap-2.5 items-center justify-center p-5 rounded-lg shadow-custom">
+                    <div class="font-normal leading-none relative shrink-0 text-white text-xl text-left whitespace-nowrap">
+                        <p class="block leading-normal whitespace-pre">Register now</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
